@@ -39,6 +39,8 @@ ul {
   background-repeat: no-repeat;
   background-position: bottom;
   background-position-x: 100%;
+  background-size: 35%;
+  position: relative;
   height: 590px;
   width: 100%;
   display: flex;
