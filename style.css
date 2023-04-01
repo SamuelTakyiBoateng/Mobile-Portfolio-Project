@@ -35,18 +35,20 @@ ul {
 
 /* Headline section */
 .headline {
-  background-image: url(images/aboutMe\ background.png);
+  /* background-image: url(images/headline-background.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-position-x: 100%;
-  background-size: 35%;
+  background-size: 35%; */
   position: relative;
   height: 590px;
   width: 100%;
   display: flex;
-  gap: 12px;
+
+  /* gap: 12px; */
   flex-direction: column;
-  justify-content: center;
+
+  /* justify-content: center; */
   background-color: #1c1a19;
   text-align: left;
   padding: 120px 24px;
@@ -61,7 +63,8 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
-  text-align: left;
+
+  /* text-align: left; */
   line-height: 64px;
   letter-spacing: 0.37px;
 }
@@ -76,19 +79,20 @@ ul {
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
+  padding: 12px 0;
 }
 
 .headline__paragraph {
   color: #fff;
   width: 327px;
-  height: 123px;
+  height: 147px;
   top: 400px;
-  margin-top: 35px;
-  margin-bottom: 0;
+  margin-top: 12px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  padding-top: 12px;
 }
 
 .socialmedia {
@@ -110,9 +114,28 @@ ul {
   padding: 0 24px;
 }
 
-/* .projects_page1 {
+.headline__background-img {
+  background: url("images/headline-background.png");
+  width: 130px;
+  height: 312.03px;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -24px;
+  right: 0;
+}
 
-} */
+/* Works or Projects Section */
+.projects_container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 250px repeat(3, auto);
+  justify-items: center;
+  width: 100%;
+  min-height: 90px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .projects_page1-works {
   display: flex;
   font-family: "Crete Round", sans-serif;
@@ -135,6 +158,12 @@ ul {
   margin-left: 24px;
 }
 
+.projects_works1-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .projects_page1-image {
   width: 327px;
   height: 237px;
@@ -151,8 +180,7 @@ ul {
   line-height: 108%;
   color: #091e42;
   vertical-align: center;
-  padding-top: 24px;
-  padding-bottom: 12px;
+  padding-top: 12px;
 }
 
 .projects_page1-description {
@@ -217,7 +245,6 @@ ul {
   color: #5b5957;
 }
 
-/*  fixing       down */
 .other_projects-container {
   display: grid;
   grid-template-columns: 100%;
@@ -226,8 +253,6 @@ ul {
   width: 100%;
   padding-left: 24px;
   padding-right: 24px;
-
-  /* background-color: red; */
 }
 
 .other_projects {
