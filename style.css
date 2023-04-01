@@ -101,3 +101,431 @@ ul {
   list-style: none;
   margin-top: 12px;
 }
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 250px repeat(3, auto);
+  width: 100%;
+  padding: 0 24px;
+}
+
+/* .projects_page1 {
+
+} */
+.projects_page1-works {
+  display: flex;
+  font-family: "Crete Round", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(28, 26, 25, 1);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.lines {
+  width: 327px;
+  top: 107px;
+  border: 1px solid;
+  align-items: center;
+  color: #212121;
+  margin-left: 24px;
+}
+
+.projects_page1-image {
+  width: 327px;
+  height: 237px;
+  margin-top: 80px;
+}
+
+.projects_page1-header {
+  width: 327px;
+  height: 36px;
+  font-family: "Crete Round", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  line-height: 108%;
+  color: #091e42;
+  vertical-align: center;
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+
+.projects_page1-description {
+  width: 327px;
+  height: 147px;
+  color: #091e42;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 24px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.projects_page1-languages {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+
+.projects_page1_languages-buttons {
+  display: inline-block;
+  background-color: #fff;
+  border: 2px solid #8993a4;
+  color: #091e42;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 12px;
+}
+
+.projects_page1-viewlink {
+  display: inline-block;
+  width: 35%;
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.projects_page1-viewlink:active {
+  background-color: #e05304;
+}
+
+.projects_page1-viewlink:hover {
+  background-color: #fff5e1;
+  border: #f55800;
+  color: #f55800;
+}
+
+.projects_page1-viewlink:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
+/*  fixing       down */
+.other_projects-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(7, 370px);
+  justify-items: center;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  /* background-color: red; */
+}
+
+.other_projects {
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/work_background\ image.png);
+  background-repeat: no-repeat;
+  margin-top: 24px;
+  height: 372px;
+}
+
+.other_projects-header {
+  width: 295px;
+  height: 81px;
+  color: #fff;
+  font-family: "Crete Round", Georgia, Times, "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  padding-top: 72px;
+  padding-left: 13px;
+}
+
+.other_projects-description {
+  width: 301px;
+  height: 100px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 82px;
+  padding-left: 13px;
+
+  /* padding-bottom: 20px; */
+}
+
+.other_projects-languages {
+  display: flex;
+  padding-top: 95px;
+  padding-bottom: 18px;
+  padding-left: 13px;
+}
+
+.other_projects_languages-buttons {
+  background-color: rgba(255, 255, 255, 0.24);
+  border: none;
+  color: #fff;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 12px;
+}
+
+.other_projects-viewlink {
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.other_projects-viewlink:active {
+  background-color: #e05304;
+}
+
+.other_projects-viewlink:hover {
+  background-color: #fff5e1;
+  border: #f55800;
+  color: #f55800;
+}
+
+.other_projects-viewlink:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
+/* Personal Profile */
+.aboutMe {
+  width: 100%;
+  height: 1650px;
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px;
+  position: relative;
+  margin: 120px auto 0;
+}
+
+.aboutMe_Title {
+  width: 327px;
+  height: 79px;
+  color: #ff6b00;
+  font-family: "Crete Round", Georgia, Times, "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+}
+
+.aboutMe_description {
+  width: 327px;
+  height: 148px;
+  color: #fff;
+  font-family: "Inter", "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 12px;
+}
+
+.resumeLinkContainer {
+  padding-top: 36px;
+}
+
+.resumeLink {
+  width: 156px;
+  height: 48px;
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* link button styles */
+.resumeLink:active {
+  background-color: #e05304;
+}
+
+.resumeLink:hover {
+  background-color: #fff5e1;
+  border: #f55800;
+  color: #f55800;
+}
+
+.resumeLink:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
+.background-img2 {
+  background: url("images/aboutMe background.png");
+  width: 160px;
+  height: 260px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 370px;
+  right: 0;
+}
+
+.line2 {
+  padding-top: 200px;
+}
+
+.skills {
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.skills ul {
+  font-family: "InaiMathi", "Gill Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.ulList {
+  font-family: "InaiMathi", "Gill Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+/* contact info */
+.contact {
+  width: 375px;
+  height: 750px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 24px;
+  margin: 0 auto;
+}
+
+.newProjects {
+  width: 327px;
+  color: #172b4d;
+  font-family: "InaiMathi", "Gill Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+form {
+  padding-top: 50px;
+}
+
+input[type="text"] {
+  width: 327px;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  background-color: #fbf8f7;
+  border: none;
+  width: 327px;
+  padding: 12px;
+  margin-top: 12px;
+  font-style: italic;
+}
+
+.submitContainer {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="submit"] {
+  width: 131px;
+  height: 48px;
+  background-color: #ff6b00;
+  border: none;
+  color: #fff;
+  padding: 12px;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  background-color: #e05304;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff5e1;
+  border: #f55800;
+  color: #f55800;
+}
+
+input[type="submit"]:disabled {
+  background-color: #f4f1f0;
+  border: none;
+  color: #5b5957;
+}
+
+/* footer section */
+footer {
+  width: 375px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.socialmedia2 {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  padding-top: 24px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.bottomLine {
+  width: 134px;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
