@@ -200,6 +200,7 @@ ul {
 .projects_page1-languages {
   display: flex;
   position:float;
+  clear: bothgit ;
   padding-top: 24px;
   padding-bottom: 12px;
 }
